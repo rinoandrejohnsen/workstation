@@ -1,0 +1,16 @@
+Processor:           13th Gen Intel(R) Core(TM) i9-13900K [32 CPUs]
+Cpufreq; Memory:     powersave [intel_pstate]; 15752 MiB
+Linux running:       6.5.9-300.fc39.x86_64 [x86_64]
+Compiler:            gcc (GCC) 13.2.1 20231011 (Red Hat 13.2.1-4)
+Linux compiled:      6.1.0 [/home/rino/.cache/kcbench/linux-6.1/]
+Config; Environment: defconfig; CCACHE_DISABLE="1"
+Build command:       make vmlinux
+Filling caches:      This might take a while... Done
+Run 1 (-j 32):       42.24 seconds / 85.23 kernels/hour [P:2423%, 1280 maj. pagefaults]
+Run 2 (-j 32):       42.47 seconds / 84.77 kernels/hour [P:2419%, 1322 maj. pagefaults]
+Run 3 (-j 37):       42.48 seconds / 84.75 kernels/hour [P:2467%, 1213 maj. pagefaults]
+Run 4 (-j 37):       42.33 seconds / 85.05 kernels/hour [P:2469%, 1058 maj. pagefaults]
+Run 5 (-j 16):       56.58 seconds / 63.63 kernels/hour [P:1359%, 668 maj. pagefaults]
+Run 6 (-j 16):       56.65 seconds / 63.55 kernels/hour [P:1359%, 630 maj. pagefaults]
+Run 7 (-j 20):       49.99 seconds / 72.01 kernels/hour [P:1648%, 880 maj. pagefaults]
+Run 8 (-j 20):       49.96 seconds / 72.06 kernels/hour [P:1650%, 877 maj. pagefaults]

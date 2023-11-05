@@ -1,0 +1,37 @@
+-------------------------------------------------------
+# replayed gnome terminal startup time
+# First column: Workload
+# Next columns: Start-up time [sec], or X if application did not
+#               start up in 120 seconds (and a timeout fired)
+# Reference case: 0r-seq
+# Reference-case meaning: Start-up time on idle device
+#
+# Workload                  none
+  0r-seq               0.10275
+  10r-seq              1.47875
+  5r5w-seq               1.316
+-------------------------------------------------------
+# replayed lowriter startup time
+# First column: Workload
+# Next columns: Start-up time [sec], or X if application did not
+#               start up in 120 seconds (and a timeout fired)
+# Reference case: 0r-seq
+# Reference-case meaning: Start-up time on idle device
+#
+# Workload                  none
+  0r-seq                 0.098
+  10r-seq               1.3225
+  5r5w-seq             1.11875
+-------------------------------------------------------
+# replayed xterm startup time
+# First column: Workload
+# Next columns: Start-up time [sec], or X if application did not
+#               start up in 120 seconds (and a timeout fired)
+# Reference case: 0r-seq
+# Reference-case meaning: Start-up time on idle device
+#
+# Workload                  none
+  0r-seq                0.0685
+  10r-seq               0.4445
+  5r5w-seq             0.37775
+-------------------------------------------------------
